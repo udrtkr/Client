@@ -1,3 +1,6 @@
 ﻿  main.c
+C:\Users\User\Documents\GitHub\Client\Client_C\main\main.c(37,11): warning C4013: 'strcpy'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\main\main.c(40,26): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\main\main.c(43,24): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
 C:\Users\User\Documents\GitHub\Client\Client_C\main\main.c(5,1): warning C4305: '초기화 중': 'int'에서 'float'(으)로 잘립니다.
   main.vcxproj -> C:\Users\User\Documents\GitHub\Client\Client_C\Debug\main.exe
