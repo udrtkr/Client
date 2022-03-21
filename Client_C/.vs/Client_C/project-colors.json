@@ -20,7 +20,17 @@
       "ProjectGuid": "e5e05773-9d44-4522-a783-cd2728c04b66",
       "DisplayName": "main",
       "ColorIndex": 3
+    },
+    "53ef7ba4-525f-4d7a-8a34-e330dbeaa2b6": {
+      "ProjectGuid": "53ef7ba4-525f-4d7a-8a34-e330dbeaa2b6",
+      "DisplayName": "OutputFunction_scanf",
+      "ColorIndex": 4
+    },
+    "99af2655-7620-48e2-8826-2f6e76d230c7": {
+      "ProjectGuid": "99af2655-7620-48e2-8826-2f6e76d230c7",
+      "DisplayName": "Operator",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }
