@@ -1,0 +1,14 @@
+﻿  main.c
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(8,8): warning C4013: 'pritnf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(12,18): warning C4047: '=': 'char'의 간접 참조 수준이 'char [4]'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(13,6): warning C4013: 'sum'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(15,23): warning C4047: '=': 'char'의 간접 참조 수준이 'char [4]'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(16,6): warning C4013: 'sub'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(18,23): warning C4047: '=': 'char'의 간접 참조 수준이 'char [4]'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(19,6): warning C4013: 'div'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(21,23): warning C4047: '=': 'char'의 간접 참조 수준이 'char [4]'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(22,6): warning C4013: 'mul'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(24,23): warning C4047: '=': 'char'의 간접 참조 수준이 'char [4]'과(와) 다릅니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Calculate\main.c(25,6): warning C4013: 'mod'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+main.obj : error LNK2019: _pritnf_main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\User\Documents\GitHub\Client\Client_C\Debug\Calculate.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
