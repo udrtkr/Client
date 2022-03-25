@@ -10,6 +10,9 @@
 
 int globalCount = 0;
 
+doSomething(); //함수선언
+int sum(int a, int b);
+
 int main() {
 
 	doSomething();
@@ -23,13 +26,13 @@ int main() {
 }
 
 int sum(int a, int b) {
-	//int tmpValue = a + b; // 지역변수는 중괄호 밖 같은 이름 변수보다 우선
-	//printf("%d", tmpValue);
+	int tmpValue = a + b; // 지역변수는 중괄호 밖 같은 이름 변수보다 우선
+	printf("%d", tmpValue);
 
 	// register 변수
 	// 빠른 연산을 위해 register에 직접 할당
 	// 컴파일러가 판단함
-	register int tmpValue = a - b;
+	//register int tmpValue = a - b;
 
 	return tmpValue;
 }

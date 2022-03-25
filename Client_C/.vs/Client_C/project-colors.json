@@ -50,7 +50,22 @@
       "ProjectGuid": "a38bf7ed-9cd9-442e-9e78-1666d86c2688",
       "DisplayName": "ControlStatement_Loop_for",
       "ColorIndex": 9
+    },
+    "1d046393-2c33-4a8e-866f-9c89f8928f07": {
+      "ProjectGuid": "1d046393-2c33-4a8e-866f-9c89f8928f07",
+      "DisplayName": "Function",
+      "ColorIndex": 10
+    },
+    "1690843e-5938-4c34-ab11-4e9f5a38d758": {
+      "ProjectGuid": "1690843e-5938-4c34-ab11-4e9f5a38d758",
+      "DisplayName": "Calculate",
+      "ColorIndex": 11
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 12
 }
