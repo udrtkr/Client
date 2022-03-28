@@ -1,5 +1,9 @@
 ﻿  main.c
-C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(9,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
-C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(23,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
-C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(30,9): warning C4477: 'printf' : 서식 문자열 '%f'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned int'입니다.
-  Pointer.vcxproj -> C:\Users\User\Documents\GitHub\Client\Client_C\Debug\Pointer.exe
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(11,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(25,9): warning C4477: 'printf' : 서식 문자열 '%lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(29,9): warning C4133: '=': 'int *'과(와) 'double *' 사이의 형식이 호환되지 않습니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(74,10): warning C4133: '=': 'double *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(78,10): warning C4133: '=': 'int *'과(와) 'double *' 사이의 형식이 호환되지 않습니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(83,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(60,1): warning C4090: '초기화 중': 'const' 한정자가 서로 다릅니다.
+C:\Users\User\Documents\GitHub\Client\Client_C\Pointer\main.c(82): error C4700: 초기화되지 않은 'pc' 지역 변수를 사용했습니다.
