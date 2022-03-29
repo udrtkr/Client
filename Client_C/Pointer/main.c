@@ -1,10 +1,10 @@
 #pragma warning (disable:4996)
 #include <stdio.h>
 
-void swap(int a, int b) {
-	int t = a;
-	a = b;
-	b = t;
+void swap(int* a, int* b) {
+	int t = *a;
+	*a = *b;
+	*b = t;
 }
 
 int main() {
@@ -91,7 +91,7 @@ int main() {
 	// 포인터를 사용하는 이유
 	// swap
 	int _a = 1, _b = 2;
-	swap(_a, _b); // 둘이 값 바뀌지 x 지역변수라
+	swap(&_a, &_b); // 주소값을 넣어라 일케해야 지역변수 값 접근가능
 	printf("%d %d \n", _a, _b);
 
 	return 0;
