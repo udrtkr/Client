@@ -44,4 +44,7 @@ int main() {
 	printf("Coord size : %d \n", sizeof(struct Coord));
 
 	printf("Student size : %d \n", sizeof(struct Student));
+	
+	struct Student studentA;
+	struct Student* studentP;
 }
