@@ -94,6 +94,15 @@ int main() {
 	swap(&_a, &_b); // 주소값을 넣어라 일케해야 지역변수 값 접근가능
 	printf("%d %d \n", _a, _b);
 
+	// void 포인터
+	int* p;
+	double* dp;
+	p = dp;
+	void* vp = NULL;
+	vp = (int*) p; // 자료형 변환 명시
+	int a;
+	vp = &a;
+
 	return 0;
 }
 
